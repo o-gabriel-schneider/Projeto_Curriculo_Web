@@ -1,46 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8"> 
-        <!-- Usar essa parte para adicionar outras metatags importantes como "viewport", etc...-->
-        <title> Projeto: Currículo Web </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Adicionar um link com o css e tornar o css minimalista, elegante e divertido, de acordo com um currículo web-->
+
+        <title> Minha Jornada | Currículo Web </title>
     </head>
+
     <body>
-        <h1> Teste de layout </h1>
-        <h2> Acadêmico & Profissional </h2>
-        <p> Nesse projeto, criarei uma página destinada a um currículo acadêmico e profissional </p>
-        <img src="badge-challenge-one.webp" alt="Badge adquirida após a realização do Challenge Amigo Secreto do Projeto ONE">
-        <h3> Abaixo estão os tópicos importantes que deverão haver nesse projeto</h3>
-        <ul> Seções da página:
-            <li> Breve Panorama </li>
-            <li> (ao lado direito) Detalhes Importantes </li>
-            <ol>
-                <li> Foto </li>
-                <li> Disponibilidade </li>
-                <li> Número </li>
-                <li> E-mail </li>
-                <li> LinkedIn </li>
-                <li> GitHub </li>
-            </ol>
-            <li> Experiência Acadêmica </li>
-                <ul>
-                    <li> UERJ </li>
-                    <li> ONE </li>
-                    <li> Idiomas </li>
-                </ul>
-            <li> Experiência Profissional</li>
-                <ul>
-                    <li> Empreendendo </li>
-                    <li> CLT </li>
-                </ul>
-            <li> Habilidades e Características </li>
-                <ol>
-                    <li> Aprendizado rápido </li>
-                    <li></li>
-                </ol>
-            <li> Considerações Finais </li>
-        </ul>
-        <h2> Considerações Finais do Projeto </h2>
-        <p> Contando um pouco sobre como foi construir essa página, quais foram minhas ideias/inspirações, etc...</p>
+        <header></header>
+        
+        <main>
+            <!--Teste de layout
+            Acadêmico & Profissional
+            Nesse projeto, criarei uma página destinada a um currículo acadêmico e profissional
+            Abaixo estão os tópicos importantes que deverão haver nesse projeto -->
+
+            <section class="apresentacaoInicial" id="1-inicio">
+                <h1>Um breve panorama sobre mim</h1>
+                <p>Apaixonado por conhecimento, sou um verdadeiro entusiasta nas mais diversas áreas da vida!</p>
+                <p>Minha jornada no mundo da tecnologia deve-se ao meu grande interesse pelo enorme potencial que essa área tem de transformar para melhor a forma como as atividades cotidianas são realizadas atualmente.</p>
+                <p>Estudo Ciência da Computação na Universidade Estadual do Rio de Janeiro (UERJ) e de Desenvolvimento de Software no Programa Oracle Next Education (ONE). Além disso, também busco complementar meu conhecimento sobre a área da tecnologia da computação por meio de conteúdos na internet.</p>
+                <p>Atualmente, busco uma oportunidade para adquirir experiência em áreas da tecnologia como desenvolvimento de software, processos empresariais, cibersegurança, banco de dados, back-end, front-end, UX e UI.</p>
+                <p>Quando penso em meu futuro profissional, vejo-me trabalhando em algo que verdadeiramente acredito, em um ambiente cativante, numa organização que admiro, com colegas de trabalho agradáveis e inteligentes em quem posso confiar. Cada dia há de ser um novo desafio, quero trabalhar em algo que me faça acordar animado para realizá-lo e que me faça dormir satisfeito por realizá-lo.</p>
+                <p>Além disso, adoro aproveitar a vida de forma leve e tranquila com quem eu amo, fazendo o que eu gosto, praticando os meus hobbies e ajudando os outros.</p>
+
+                <img src="img/gabriel-schneider.pn" alt="Imagem do Gabriel Schneider">
+                
+                <h1> Detalhes importantes </h1>
+                <h3 class="details_title">Localização:</h3>
+                    <p>Rio de Janeiro<p>
+                <h3>Idade</h3>
+                    <p>21 anos</p>
+                <h3>Disponibilidade</h3>
+                    <p>disponível</p>
+                <a href="mailto:ogabrielschneider@gmail.com"> E-mail </a>
+                <a href="https://www.linkedin.com/in/gabriel-schneider-computação/"> LinkedIn </a>
+                <a href="https://www.github.com/o-gabriel-schneider/"> GitHub </a>
+            </section>
+
+            <section class="apresentacaoAcademica" id="2-Academico">
+                <h1>Experiência acadêmica</h1>
+                    <h2>UERJ</h2>
+                    <h2>ONE</h2>
+                    <h2>Idiomas</h2>
+                        <h3>Português</h3>
+                            <p></p>
+                        <h3>Inglês</h3>
+                            <p></p>
+            </section>
+
+            <section class="apresentacaoProfissional" id="3-Profissional">
+                <h1>Experiência profissional</h1>
+                    <h2> Empreendendo </h2>
+                    <h2> CLT </h2>
+            </section>
+
+            <section class="apresentacaoHabilidadesECompetencias" id="4-HabilidadesECompetencias">
+                <h1>Habilidades & Competências</h1>
+                    <h2>Tecnologias</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    <h2>Hard skills</h2>
+                        <ul>
+                            <li>Programação</li>
+                            <li>Ciência de dados</li>
+                            <li>Front-end</li>
+                            <li>Gestão</li>
+                            <li>Marketing</li>
+                            <li>Vendas</li>
+                            <li>Administração</li>
+                        </ul>
+                    <h2>Soft skills</h2>
+                        <ul>
+                            <li>Aprendizado rápido</li>
+                            <li>Adaptabilidade</li>
+                            <li>Visão Globalizada</li>
+                            <li>Inteligência emocional</li>
+                            <li>Relacionamento interpessoal</li>
+                            <li>Resolução de problemas</li>
+                            <li>Cooperação</li>
+                            <li>Escuta ativa</li>
+                            <li>Comunicação</li>
+                            <li>Carisma</li>
+                            <li>Criatividade e inovação</li>
+                            <li>Paciência</li>
+                            <li>Atenciosidade</li>
+                            <li>Humildade</li>
+                            <li>Respeito</li>
+                            <li>Proatividade</li>
+                            <li>Honestidade</li>
+                            <li>Comprometimento</li>
+                            <li>Curiosidade</li>
+                            <li>Responsabilidade</li>
+                            <li>Resiliência</li>
+                        </ul>
+            </section>
+
+            <section class="apresentacaoProjetos" id="projetos">
+                <h1>Projetos</h1>
+            </section>
+            
+            <section class="apresentacaoConsideracoes" id="5-Consideracoes">
+                <h1>Considerações finais</h1>
+            </section>
+
+            <section class="apresentacaoFinal" id="6-SobreOProjeto">
+                <h1>Sobre a realização desse projeto</h1>
+                <p>Contando um pouco sobre como foi construir essa página, quais foram minhas ideias/inspirações, etc...</p>
+            </section>
+        </main>
+
+        <footer></footer>
     </body>
 </html>
