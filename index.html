@@ -4,70 +4,106 @@
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Adicionar um link com o css e tornar o css minimalista, elegante e divertido, de acordo com um currículo web-->
+        <link rel="stylesheet" href="style.css">
+        <!-- Tornar o css minimalista, elegante e divertido -->
 
         <title> Minha Jornada | Currículo Web </title>
     </head>
 
     <body>
-        <header></header>
+        <header>
+            <div class="cabecalho">
+                <p class="cabecalho_nome">Gabriel Schneider</p>
+                <div class="cabecalho_links">
+                    <a class="cabecalho_linksDecoracao" href="https://www.linkedin.com/in/gabriel-schneider-computação/">
+                        <img src="img/linkedin_logo.png" alt="LinkedIn">
+                    </a>
+                    <a class="cabecalho_linksDecoracao" href="https://github.com/o-gabriel-schneider">
+                        <img src="img/github_logo.png" alt="GitHub">
+                    </a>
+                    <a class="cabecalho_linksDecoracao" href="mailto:ogabrielschneider@gmail.com">
+                        <img src="img/email_logo.png" alt="E-mail">
+                    </a>
+                </div>
+            </div>
+        </header>
         
         <main>
-            <!--Teste de layout
+            <!-- Teste de layout
             Acadêmico & Profissional
             Nesse projeto, criarei uma página destinada a um currículo acadêmico e profissional
             Abaixo estão os tópicos importantes que deverão haver nesse projeto -->
 
+            <h1 class="tituloPrincipal">Curriculum Vitae</h1>
+
             <section class="apresentacaoInicial" id="1-inicio">
-                <h1>Um breve panorama sobre mim</h1>
-                <p>Apaixonado por conhecimento, sou um verdadeiro entusiasta nas mais diversas áreas da vida!</p>
-                <p>Minha jornada no mundo da tecnologia deve-se ao meu grande interesse pelo enorme potencial que essa área tem de transformar para melhor a forma como as atividades cotidianas são realizadas atualmente.</p>
-                <p>Estudo Ciência da Computação na Universidade Estadual do Rio de Janeiro (UERJ) e de Desenvolvimento de Software no Programa Oracle Next Education (ONE). Além disso, também busco complementar meu conhecimento sobre a área da tecnologia da computação por meio de conteúdos na internet.</p>
-                <p>Atualmente, busco uma oportunidade para adquirir experiência em áreas da tecnologia como desenvolvimento de software, processos empresariais, cibersegurança, banco de dados, back-end, front-end, UX e UI.</p>
-                <p>Quando penso em meu futuro profissional, vejo-me trabalhando em algo que verdadeiramente acredito, em um ambiente cativante, numa organização que admiro, com colegas de trabalho agradáveis e inteligentes em quem posso confiar. Cada dia há de ser um novo desafio, quero trabalhar em algo que me faça acordar animado para realizá-lo e que me faça dormir satisfeito por realizá-lo.</p>
-                <p>Além disso, adoro aproveitar a vida de forma leve e tranquila com quem eu amo, fazendo o que eu gosto, praticando os meus hobbies e ajudando os outros.</p>
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">APRESENTAÇÃO INICIAL</h1>
+                </div>
 
-                <img src="img/gabriel-schneider.pn" alt="Imagem do Gabriel Schneider">
-                
-                <h1> Detalhes importantes </h1>
-                <h3 class="details_title">Localização:</h3>
-                    <p>Rio de Janeiro<p>
-                <h3>Idade</h3>
-                    <p>21 anos</p>
-                <h3>Disponibilidade</h3>
-                    <p>disponível</p>
-                <a href="mailto:ogabrielschneider@gmail.com"> E-mail </a>
-                <a href="https://www.linkedin.com/in/gabriel-schneider-computação/"> LinkedIn </a>
-                <a href="https://www.github.com/o-gabriel-schneider/"> GitHub </a>
+                <div class="conteudoSecao">
+                    <img src="img/gabriel-schneider.pn" alt="Imagem do Gabriel Schneider">
+
+                    <p>Apaixonado por conhecimento, sou um verdadeiro entusiasta nas mais diversas áreas da vida!</p>
+                    <p>Minha jornada no mundo da tecnologia deve-se ao meu grande interesse pelo enorme potencial que essa área tem de transformar para melhor a forma como as atividades cotidianas são realizadas atualmente.</p>
+                    <p>Estudo Ciência da Computação na Universidade Estadual do Rio de Janeiro (UERJ) e Desenvolvimento de Software no Programa Oracle Next Education (ONE). Além disso, também busco complementar meu conhecimento sobre a área da tecnologia da computação por meio de conteúdos na internet.</p>
+                    <p>Atualmente, procuro uma oportunidade para adquirir experiência em áreas da tecnologia como desenvolvimento de software, processos empresariais, cibersegurança, banco de dados, back-end, front-end, UX e UI.</p>
+                    <p>Quando penso em meu futuro profissional, vejo-me trabalhando em algo que verdadeiramente acredito, em um ambiente cativante, numa organização que admiro, com colegas de trabalho agradáveis e inteligentes em quem posso confiar. Cada dia há de ser um novo desafio, quero trabalhar em algo que me faça acordar animado para realizá-lo e que me faça dormir satisfeito por realizá-lo.</p>
+                    <p>Além disso, adoro aproveitar a vida de forma leve e tranquila com quem eu amo, fazendo o que eu gosto, praticando os meus hobbies e ajudando os outros.</p>
+                </div>
             </section>
 
-            <section class="apresentacaoAcademica" id="2-Academico">
-                <h1>Experiência acadêmica</h1>
-                    <h2>UERJ</h2>
-                    <h2>ONE</h2>
-                    <h2>Idiomas</h2>
-                        <h3>Português</h3>
-                            <p></p>
-                        <h3>Inglês</h3>
-                            <p></p>
+            <section class="apresentacaoAcademica" id="2-academico">
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">EXPERIÊNCIA ACADÊMICA</h1>
+                </div>
+
+                <div class="conteudoSecao">
+                    <h2 class="subtituloSecaoNome">Universidade Estadual do Rio de Janeiro (UERJ) - Ciência da Computação</h2>
+                    <h4 class="duracao">( Mar/2025 - Atualmente )</h4>
+                        <p>1° período.</p>
+                    <h2 class="subtituloSecaoNome">Programa Oracle Next Education (ONE) - Desenvolvimento de Software</h2>
+                    <h4 class="duracao">( Jan/2025 - Atualmente )</h4>
+                        <p>O Programa ONE é um projeto da Oracle em parceria com a Alura que visa capacitar pessoas para atuarem no mercado da tecnologia.</p>
             </section>
 
-            <section class="apresentacaoProfissional" id="3-Profissional">
-                <h1>Experiência profissional</h1>
-                    <h2> Empreendendo </h2>
-                    <h2> CLT </h2>
+            <section class="apresentacaoProfissional" id="3-profissional">
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">EXPERIÊNCIA PROFISSIONAL</h1>
+                </div>
+
+                <div class="conteudoSecao">
+                    <h2 class="subtituloSecaoNome">Empreendendo</h2>
+                        <h3 class="sub-subtituloSecaoNome">E-commerce</h3>
+                        <h4 class="duracao">( XX/XX - XX/XX · XX meses )</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius sed mi eget bibendum. Integer urna lorem, rutrum vel porta nec, molestie at orci. Etiam sollicitudin egestas enim at scelerisque. Curabitur aliquam auctor urna, eu sodales est auctor a. Vestibulum efficitur commodo dolor, at maximus augue porta molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer in quam pellentesque, condimentum diam quis, euismod eros. Etiam dui nulla, tincidunt ullamcorper facilisis et, faucibus ut sapien. In nec varius velit, vel blandit est.</p>
+                    <h2 class="subtituloSecaoNome">CLT</h2>
+                        <h3 class="sub-subtituloSecaoNome">Smart Fit, Rio de Janeiro - Recepcionista</h3>
+                        <h4 class="duracao">( Jun/2023 - Dez/2023 · 7 meses )</h4>
+                            <p>Aliquam imperdiet eu felis in aliquet. Mauris non nisl scelerisque, euismod dolor eu, ullamcorper eros. Duis non urna dictum odio maximus aliquam eu ac odio. Integer tristique ipsum eget nisi lacinia, nec efficitur dolor scelerisque. Mauris malesuada augue sed augue consequat, vitae pulvinar nisl posuere. Morbi lobortis, lacus sed iaculis molestie, arcu nulla aliquet turpis, sed elementum nulla justo et lectus. Pellentesque luctus elit quis eleifend tincidunt. In bibendum mi at fringilla dictum. Duis imperdiet, enim eu rutrum volutpat, nulla nibh lacinia augue, sit amet maximus tortor lacus in turpis. Ut at varius arcu.</p>
+                </div>
             </section>
 
-            <section class="apresentacaoHabilidadesECompetencias" id="4-HabilidadesECompetencias">
-                <h1>Habilidades & Competências</h1>
-                    <h2>Tecnologias</h2>
+            <section class="apresentacaoHabilidadesECompetencias" id="4-habilidadesECompetencias">
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">HABILIDADES & COMPETÊNCIAS</h1>
+                </div>
+
+                <div class="conteudoSecao">
+                    <h2 class="subtituloSecaoNome">Tecnologias</h2>
                         <ul>
+                            <li>Git</li>
                             <li>Python</li>
                             <li>JavaScript</li>
                             <li>HTML</li>
                             <li>CSS</li>
+                            <li>Figma</li>
                         </ul>
-                    <h2>Hard skills</h2>
+                    <h2 class="subtituloSecaoNome">Hard skills</h2>
                         <ul>
                             <li>Programação</li>
                             <li>Ciência de dados</li>
@@ -77,7 +113,7 @@
                             <li>Vendas</li>
                             <li>Administração</li>
                         </ul>
-                    <h2>Soft skills</h2>
+                    <h2 class="subtituloSecaoNome">Soft skills</h2>
                         <ul>
                             <li>Aprendizado rápido</li>
                             <li>Adaptabilidade</li>
@@ -101,22 +137,70 @@
                             <li>Responsabilidade</li>
                             <li>Resiliência</li>
                         </ul>
+                </div>
             </section>
 
-            <section class="apresentacaoProjetos" id="projetos">
-                <h1>Projetos</h1>
+            <section class="ApresentacaoIdiomas" id="5-idiomas">
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">IDIOMAS</h1>
+                </div>
+
+                <div class="conteudoSecao">
+                    <h2 class="subtituloSecaoNome">Português</h2>
+                    <p class="grauProficiencia">- Fluente</p>
+                    <h2 class="subtituloSecaoNome">Inglês</h2>
+                    <p class="grauProficiencia">- Avançado</p>
+                    <p>Além desses, pretendo aprender outros idiomas.</p>
+            </section>
+
+            <section class="apresentacaoProjetos" id="6-projetos">
+                <div class="tituloSecao">
+                    <button class="abreFechaSecao"></button>
+                    <h1 class="tituloSecaoNome">PROJETOS</h1>
+                </div>
+
+                <div class="conteudoSecao">
+                    <div class="conteudoSecao_projetos">
+                        <div class="conteudoSecao_projetosDecoracao">
+                            <h2 class="subtituloSecaoProjetosNome">Apresentação Pessoal</h2>
+                            <img class="imagemProjeto" src="img/projeto_apresentação_pessoal.png" alt="Imagem do projeto Apresentação Pessoal">
+                            <button class="saibaMaisProjeto">Saiba mais</button>
+
+                            <!--
+                            add um botão "Saiba mais" que abre uma página com uma breve descrição do projeto, o link dele no github e o link do deploy no vercel 
+                            <a href="">GitHub</a>
+                            <a href="">Deploy</a>
+                            -->
+                        </div>
+
+                        <div class="conteudoSecao_projetosDecoracao">
+                            <h2 class="subtituloSecaoProjetosNome">Lista Supermercado</h2>
+                            <img class="imagemProjeto" src="" alt="Imagem do projeto Lista Supermercado">
+                            <button class="saibaMaisProjeto">Saiba mais</button>
+
+                            <!--
+                            add um botão "Saiba mais" que abre uma página com uma breve descrição do projeto, o link dele no github e o link do deploy no vercel 
+                            <a href="">GitHub</a>
+                            <a href="">Deploy</a>
+                            -->
+                        </div>
+                    </div>
+                </div>
             </section>
             
-            <section class="apresentacaoConsideracoes" id="5-Consideracoes">
-                <h1>Considerações finais</h1>
-            </section>
-
-            <section class="apresentacaoFinal" id="6-SobreOProjeto">
+            <!--
+            <section class="apresentacaoFinal" id="7-sobreOProjeto">
                 <h1>Sobre a realização desse projeto</h1>
                 <p>Contando um pouco sobre como foi construir essa página, quais foram minhas ideias/inspirações, etc...</p>
             </section>
+            -->
         </main>
 
-        <footer></footer>
+        <footer>
+            <div class="rodape">
+                <p class="rodapeParagrafo">© 2025 Gabriel Schneider - Feito por mim</p>
+            </div>
+        </footer>
     </body>
 </html>
